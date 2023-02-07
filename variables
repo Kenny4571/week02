@@ -1,0 +1,24 @@
+fun main() {
+    
+     var myAge : Int = 38
+      var averageAge : Double = 30.0
+
+    averageAge = (averageAge + myAge)/2
+    
+    println(averageAge)
+    
+    val testNumber = 3
+    val evenOdd = testNumber%2
+    
+    println(evenOdd)
+    
+    var answer = 0
+    ++answer
+     println(answer)
+    
+    answer += 10
+    answer *= 10
+    answer = answer.shr(3)
+   println(answer)
+
+}
